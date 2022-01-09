@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className={styles.container}>
         <div className={styles.item}>
           <div className={styles.callButton}>
-            <AiOutlinePhone size={32} />
+            <AiOutlinePhone size={32}  color="#c2185b"/>
           </div>
           <div className={styles.texts}>
             <div className={styles.text}>ORDER NOW!</div>
@@ -19,10 +19,10 @@ const Navbar = () => {
 
         <div className={styles.item}>
           <ul className={styles.list}>
-            <li className={styles.listItem}>HomePage</li>
+            <li className={styles.listItem}>Home</li>
             <li className={styles.listItem}>Products</li>
             <li className={styles.listItem}>Menu</li>
-            <h1>Pizza´s Loover</h1>
+            <h1>Pizza´s Lover</h1>
             <li className={styles.listItem}>Events</li>
             <li className={styles.listItem}>contact</li>
           </ul>

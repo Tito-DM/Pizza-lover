@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  height: 80vh;
+}
+
+.imgSlid{
+    filter: brightness(0.5);
+}
+.imgInfo{
+    z-index: 2;
+    position: absolute;
+    color: whitesmoke;
+    top: 25%;
+    left: 50%;
+}
+
+
+
+.orderButton{
+    width: 130px;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c2185b;
+    border-radius: 5%;
+}

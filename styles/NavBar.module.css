@@ -3,7 +3,7 @@
 .container{
     height: 100px;
     padding: 0px 50px;
-    background-color: #d1411e;
+    background-color: #c2185b ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,7 +20,10 @@
 }
 
 .item:nth-child(2){
-    flex: 3;
+    flex: 1.2;
+}
+.item:nth-child(3){
+    justify-content: flex-end;
 }
 
 .callButton{
@@ -72,7 +75,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    color: #d1411e;
+    color: #c2185b;
     background-color: whitesmoke;
     padding: 3px;
     display: flex;
